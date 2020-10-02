@@ -3,14 +3,14 @@ class Fumetto{
     public $titolo;
     public $volumi;
     public $autore;
-    public $editore;
+    public $edizioneItaliana;
     public $prezzo;
 
-    public function  __construct($_titolo, $_autore, $_editore, $_volumi = 1){
+    public function  __construct($_titolo, $_autore, $_edizioneItaliana, $_volumi = 1){
         $this->titolo = $_titolo;
         $this->volumi = $_volumi;
         $this->autore = $_autore;
-        $this->editore = $_editore;
+        $this->edizioneItaliana = $_edizioneItaliana;
     }
 
     public function prezzoTotale($_quantità){
@@ -28,4 +28,4 @@ class Fumetto{
 }
 
 
- ?>
+ 
