@@ -24,8 +24,12 @@ class Fumetto{
         return $this->volumi * $_quantità;
     }
 
+    public function prezzoVolume(){
+        if (empty($this->prezzo)){
+            die("Non è specificato alcun prezzo");
+        }
+        return round($this->prezzo / $this->volumi, 2);
+    }
+
 
 }
-
-
- 
