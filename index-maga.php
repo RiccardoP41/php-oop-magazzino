@@ -18,7 +18,7 @@ echo "Spesa totale: " .$fumetto2->prezzoTotale(2)." euro";
 echo  "</br>" ."numero totale volumi ordinati ".$fumetto2->volumiTotali(2);
 
 $estero1 = new Estero("Il guanto dell'infinito", "Jim Starlin", "Panini Comics", "Marvel Comics", "USA", 6);
-$estero1->prezzo = 40;
+$estero1->prezzo = 36.99;
 var_dump($estero1);
 echo "Spesa totale: " .$estero1->prezzoTotale(3)." euro";
 echo  "</br>" ."numero totale volumi ordinati " .$estero1->volumiTotali(3);
