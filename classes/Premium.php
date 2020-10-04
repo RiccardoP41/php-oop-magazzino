@@ -15,6 +15,6 @@ require_once "Estero.php";
         if (empty($this->prezzo)){
             die("Non è specificato alcun prezzo");
         }
-        return ($this->prezzo + $this->maggiorazione) * $_quantità;
+        return ($this->prezzo + $this->maggiorazione) * $_quantità; 
     }
  }
